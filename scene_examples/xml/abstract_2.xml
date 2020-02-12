@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, 0</position>
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+		<glare>off</glare>
+	    <fov>70.0</fov>
+	</camera>
+	<effects><antialiasing>off</antialiasing></effects>
+	<window>
+		<title>abstract_2</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 0, 80</position>
+		<intensity>1800</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>sphere</type>
+		<position>35, 0, 150</position>
+		<direction>0, 0, 1</direction>
+		<dimension>30</dimension>
+		<color>0xe0cda9</color>
+		<shine>100, 1</shine>
+		<reflection>1</reflection>
+	</object>
+	<object>
+		<type>cube</type>
+		<position>-35, 0, 150</position>
+		<direction>0, 1, 0</direction>
+		<rotation>40, 40, 0</rotation>
+		<dimension>20</dimension>
+		<refraction>1.5</refraction>
+		<transparence>0.8</transparence>
+		<color>0x999999</color>
+		<shine>100, 1</shine>
+	</object>
+	<object>
+		<type>cylinder</type>
+		<position>0, 0, -10</position>
+		<direction>0, 1, 0</direction>
+		<dimension>10</dimension>
+		<color>0x999999</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/wood.xpm</texture_file>
+		<texture_mode>3, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> front
+		<position>0, 0, 200</position>
+		<direction>0, 0, -1</direction>
+		<dimension>20</dimension>
+		<color>0x888888</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/biblo.xpm</texture_file>
+		<texture_mode>5.5, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> back
+		<position>0, 0, -50</position>
+		<direction>0, 0, 1</direction>
+		<dimension>20</dimension>
+		<color>0x888888</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/biblo.xpm</texture_file>
+		<texture_mode>5.5, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> top
+		<position>0, 70, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x666666</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/wood.xpm</texture_file>
+		<texture_mode>0.4, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> bot
+		<position>0, -70, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>20</dimension>
+		<color>0x666666</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/wood.xpm</texture_file>
+		<texture_mode>0.4, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> right
+		<position>110, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x444444</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/wood.xpm</texture_file>
+		<texture_mode>5.5, 0.0, 0.0</texture_mode>
+	</object>
+	<object>
+		<type>plane</type> left
+		<position>-110, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>20</dimension>
+		<color>0x444444</color>
+		<shine>100, 1</shine>
+		<texture_file>textures/wood.xpm</texture_file>
+		<texture_mode>5.5, 0.0, 0.0</texture_mode>
+	</object>
+</scene>

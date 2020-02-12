@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -200</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects>
+		<antialiasing>off</antialiasing>
+		<celshading>off</celshading>
+	</effects>
+	<window>
+		<title>soft_shadow(point_vs_rectagle_light)</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.1</ambient>
+	</window>
+	<light>
+		<intensity>40000</intensity>
+		<color>0xffffff</color>
+		<type>rectangle</type>
+		<position>-200, 25, 499</position>
+		<invertdirection>on</invertdirection>
+		<vdirection>80, 0, 0</vdirection>
+		<udirection>0, -50, 0</udirection>
+		<vdensity>8</vdensity>
+		<udensity>8</udensity>
+	</light>
+	<light>
+		<intensity>20000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+		<position>200, -25, 400</position>
+	</light>
+	<object>
+		<type>plane</type> sotto
+		<position>0, -200, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> destra
+		<position>300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sinistra
+		<position>-300, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0xff0000</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> sopra
+		<position>0, 200, 0</position>
+		<direction>0, -1, 0</direction>
+		<dimension>100</dimension>
+		<color>0xffff00</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>plane</type> davanti
+		<position>0, 0, 500</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+   	<object>
+		<type>plane</type> divide
+		<position>0, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<color>0x44ffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-180, -150, 400</position>
+		<direction>1, 0, 0</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>180, -150, 380</position>
+		<direction>1, 0, 0</direction>
+		<dimension>50</dimension>
+		<color>0xffffff</color>
+		<shine>1.23, 0.21212</shine>
+	</object>
+</scene>

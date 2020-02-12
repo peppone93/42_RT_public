@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -5</position>        
+		<direction>-0.6, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<effects><antialiasing>4x</antialiasing></effects>
+	<window>
+		<title>double_mirror</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.4</ambient>
+	</window>
+	<light>
+		<position>0, 80, 50</position>
+		<intensity>4000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>cube</type>
+		<position>0, 0, 90</position>
+		<direction>0, 1, 0</direction>
+		<dimension>15</dimension>
+		<color>0xff0000</color>
+		<shine>50, 1</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>25, 0, 0</position>
+		<direction>-1, 0, 0</direction>
+		<dimension>100</dimension>
+		<reflection>0.9</reflection>
+		<color>0x333333</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>-25, 0, 0</position>
+		<direction>1, 0, 0</direction>
+		<dimension>100</dimension>
+		<reflection>0.9</reflection>
+		<color>0x333333</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, -20, 0</position>
+		<direction>0, 1, 0</direction>
+		<dimension>100</dimension>
+		<color>0x555555</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, 130</position>
+		<direction>0, 0, -1</direction>
+		<dimension>100</dimension>
+		<color>0x333333</color>
+		<shine>0, 0</shine>
+	</object>
+	<object>
+		<type>plane</type>
+		<position>0, 0, -130</position>
+		<direction>0, 0, 1</direction>
+		<dimension>100</dimension>
+		<color>0x333333</color>
+		<shine>0, 0</shine>
+	</object>
+</scene>

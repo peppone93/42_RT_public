@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -4</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>70.0</fov>
+	</camera>
+	<effects><antialiasing>4x</antialiasing></effects>
+	<light>
+		<position>0, 10, -60</position>
+		<intensity>3000</intensity>
+		<color>0x00aaff</color>
+		<type>point</type>
+	</light>
+	<window>
+		<title>mobius_strip</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.2</ambient>
+	</window>
+	<object>
+		<type>mobius</type>
+		<position>0.1, 0.2, 0</position>
+		<direction>0, 1, 0</direction>
+		<rotation>65, 0, -180</rotation>
+		<dimension>1</dimension>
+		<shine>40, 0.5</shine>
+		<color>0x0000ff</color>
+	</object>
+</scene>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ASCII"?>
+<scene>
+	<camera>
+		<position>0, 0, -30</position>        
+		<direction>0, 0, 1</direction>
+		<rotation>0, 0, 0</rotation>
+	    <fov>80.0</fov>
+	</camera>
+	<window>
+		<title>homer_torus</title>
+		<dimension>1280, 720</dimension>
+		<ambient>0.6</ambient>
+	</window>
+	<light>
+		<position>0, 0, -120</position>
+		<intensity>6000</intensity>
+		<color>0xffffff</color>
+		<type>point</type>
+	</light>
+	<object>
+		<type>torus</type>
+		<position>0, 0, 0</position>
+		<direction>0, -1, 1</direction>
+		<dimension>4</dimension>
+		<color>0xe7c700</color>
+	</object>
+	<object>
+		<type>torus</type>
+		<position>0, 0.5, -1</position>
+		<direction>0, -1, 1</direction>
+		<dimension>3.8</dimension>
+		<color>0xff5a88</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>6, -4, -5</position>
+		<direction>0, -1, 1</direction>
+		<dimension>5.5</dimension>
+		<negatif>1</negatif>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>6, 2.2, -4</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>4, 5.2, -0.5</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-6, -1, -7.5</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-6, 4.5, -2</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-3, 7.8, 1</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xff0000</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-1, -1.5, -8</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0xffffff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-9, 1, -5</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>8.5, 4.5, -2</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>0, 6, 0.85</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-4, -1.5, -8</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.5</dimension>
+		<color>0x0000ff</color>
+	</object>
+	<object>
+		<type>sphere</type>
+		<position>-2, -4, -9.8</position>
+		<direction>0, -1, 1</direction>
+		<dimension>0.4</dimension>
+		<color>0xff0000</color>
+	</object>
+</scene>
