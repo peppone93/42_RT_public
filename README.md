@@ -1,6 +1,6 @@
 RT
 
-This project’s goal is to trasformate the basic raytracer of the project (rtv1) to a raytracer able to generate
+This project’s goal is to trasform the basic raytracer of the project (rtv1) to a raytracer able to generate
 amazing images (RT). This is accomplished implementing  a multitude of new functions to the raytracer.
 This project has been realized by a group of 4 students.
 
