@@ -59,6 +59,15 @@ __Realized options:__
 ![alt text](screens/screen6.png)
 ![alt text](screens/screen7.png)
 ![alt text](screens/screen8.png)
+![alt text](screens/screen9.png)
+![alt text](screens/screen10.png)
+![alt text](screens/screen11.png)
+![alt text](screens/screen12.png)
+![alt text](screens/screen13.png)
+![alt text](screens/screen14.png)
+![alt text](screens/screen15.png)
+![alt text](screens/screen16.png)
+![alt text](screens/screen17.png)
 
 
 
