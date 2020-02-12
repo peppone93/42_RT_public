@@ -9,10 +9,10 @@ Here is a scene file example: [basic_02.sc](scene_examples/basic_02.sc)
 __NOTE:__
 The whole project was realized using the school's graphic library: MinilibX.
 This library contains only basic drawing functions: open a window, lit a pixel and manage events.
-Everything else must be coded by studentsm ex: 
-(XML and OBJ files parser from scratch, Camera quaternion model, Object intersections,
+Everything else must be coded by students ex: 
+XML and OBJ files parser from scratch, Camera quaternion model, Object intersections,
 Vector and Matrix calculations creating our own respectively libraries, Shading models: lambert, phong, Snell-Descartes laws...
-Texture mapping, Screenshots from a char string containing rgb values to ppm format, Light color mixing, Polygons to Triangles convertions, ...)
+Texture mapping, Screenshots from a char string containing rgb values to ppm format, Light color mixing, Polygons to Triangles convertions, ...
 
 __Realized options:__
 - Advanced XML format scenes
