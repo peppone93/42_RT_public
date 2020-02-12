@@ -35,7 +35,7 @@ __Realized options:__
 - Camera rotations (x, y, z) / dazzling light activation / fov changements without relaunch the program
 - Perturbation: Normal (alternations with sinus algorithm)
 - Perturbation: Color (checkerboard, perlin noise)
-- Texture can be applied: sphere, cone, cylinder and plane
+- Texture can be applied ok: sphere, cone, cylinder and plane
 - Texture can be stretched and displaced
 - Texture: normal alterations, bump mapping
 - Effect: Antiliasing
@@ -43,9 +43,8 @@ __Realized options:__
 - Effect: Motion blur
 - Effect: Anaglyph 3D
 - Effect: Color filters (speia, inverted, grayscale)
-- Multithread
+- Computation: Multithread and/or Muticluster
 - Screenshots (PPM format)
-- Muticluster computation
 - OBJ file reader (and converter to XML format)
 
 ![alt text](screens/screen1.png)
