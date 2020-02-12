@@ -46,7 +46,7 @@ __Realized options:__
 - Effect: Celshading
 - Effect: Motion blur
 - Effect: Anaglyph 3D
-- Effect: Color filters (speia, inverted, grayscale)
+- Effect: Color filters (sepia, inverted, grayscale)
 - Computation: Multithread and/or Multicluster
 - Screenshots (PPM format)
 - OBJ file reader (and converter to XML format)
