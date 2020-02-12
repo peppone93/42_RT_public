@@ -4,9 +4,9 @@ This project’s goal is to transform the basic raytracer of the project (rtv1) 
 amazing images (RT). This is accomplished implementing a multitude of new functions to the raytracer.
 This project has been realized by a group of 4 students.
 
-Here is an XML scene file example: [tridimensional_3.xml](scene_examples/xml/tridimensional_3.xml).
-Here is an OBJ scene file example: [low_tree.obj](scene_examples/obj/low_tree.obj).
-Here is an OBJ converted scene file example: [hard_house_converted.xml](scene_examples/obj/hard_house_converted.xml).
+* Here is an XML scene file example: [tridimensional_3.xml](scene_examples/xml/tridimensional_3.xml)
+* Here is an OBJ scene file example: [low_tree.obj](scene_examples/obj/low_tree.obj)
+* Here is an OBJ converted scene file example: [hard_house_converted.xml](scene_examples/obj/hard_house_converted.xml)
 
 
 
