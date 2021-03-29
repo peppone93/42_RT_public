@@ -9,7 +9,6 @@ This project has been realized by a group of 4 students.
 * Here is an OBJ converted scene file example: [hard_house_converted.xml](scene_examples/obj/hard_house_converted.xml)
 
 
-
 __NOTE:__
 The whole project was realized using the school's graphic library: MinilibX.
 This library contains only basic drawing functions: open a window, lit a pixel and manage events.
@@ -69,4 +68,4 @@ __Realized options:__
 ![alt text](screens/screen16.png)
 ![alt text](screens/screen17.png)
 
-_For this project I decided to make all files public but please do not hesitate to contact me if need additional details._
+_If you are interested in the complete code, please do not hesitate to contact me._
