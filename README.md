@@ -69,7 +69,4 @@ __Realized options:__
 ![alt text](screens/screen16.png)
 ![alt text](screens/screen17.png)
 
-
-
-
-_If you are interested in the complete code, please do not hesitate to contact me._
+_For this project I decided to make all files public but please do not hesitate to contact me if need additional details._
